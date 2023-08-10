@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+</head>
+<body>
+    <h1>Wellcome To My Page</h1><hr>
+    <h1>Legend</h1>
+    <form>
+        <legend>Please Select One</legend>
+        <br>
+        <input type="radio"  id="Mango" name="Select one" value="Mango">
+        <label for="">Mango</label><br>
+        <input type="radio" id="Orange" name="Select one" value="Orange">
+        <label for="">Orange</label><br>
+        <input type="radio" id="Lemon" name="Select one" value="Lemon">
+        <label for="">Lemon</label><br>
+        <input type="radio" id="Apple" name="Select one" value="Apple">
+        <label for="">Apple</label>
+    </form>
+    <hr>
+    <h1>Fieldset</h1>
+    <fieldset>
+         <legend>Please Select your Marks</legend>
+        <input type="radio" id="Marks1" name="Marks" value="25">
+        <label for="Marks1">0-25</label><br>
+        <input type="radio" id="Marks2" name="Marks" value="50">
+        <label for="Marks2">26-50</label><br>
+        <input type="radio" id="Marks3" name="Marks" value="75">
+        <label for="Marks3">51-75</label><br>
+        <input type="radio" id="Marks4" name="Marks" value="100">
+        <label for="Marks4">76-100</label>
+    </fieldset>
+<hr>
+<h1>Option Group</h1><br>
+<label for="Flower Colour-Select"></label>
+<select name="Flower Colour" id="Flower Colour-Select">
+    <option value="">--Please choose an option--</option>
+
+   
+  <optgroup label="red flower" >
+    <option value="rose">Rose</option>
+    <option value="Aster">Aster</option>
+     <option value="azalea">Azalea</option>
+</optgroup> 
+
+<optgroup label="White Flower">
+    <option value="allium">Allium</option>
+    <option value="amaryllis">Amarllis</option>
+    <option value="jesmine">Jesmin</option>
+</optgroup>
+<option label="Yellow Flower">
+    <option value="sunfloer">Sunflower</option>
+    <option value="burflower">Burflower</option>
+    <option value="bidens">Bidens</option>
+</option>
+</select>
+<hr><br><br>
+<h1>Datalist</h1>
+<form action="/action_page.php"> 
+    <label for="flower">Choose your flower from the list:</label>
+    <input list="flowers" name="flower" id="flower">
+    <datalist id="flowers">
+        <option value="Rose"></option>
+        <OPtion value="Sunflower"></OPtion>
+        <option value="Lily"></option>
+        <option value="Poppy"></option>
+        <option value="Snowdrop"></option>
+         </datalist>
+         <label for="image">Select image:</label>
+         <input type="file" id="image" name="image" accept="image/jpg,image/jpg,image/jpeg,imagr/npg,image/njpg">
+         <input type="submit">
+        </form>
+
+
+
+
+
+   
+
+
+
+<br><br><br>
+    
+</body>
+</html>
